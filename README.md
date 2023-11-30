@@ -6,7 +6,7 @@
 
 - The web application provides the user the current date and time in their city/region. The current temperature and corresponding weather icon dynamically adjusts during the day along with pleasant greeting. At the bottom, there are is simple navigation shortcut list for the user to operate instead of a toolbar or other technological tool.
 
-- The web application runs several applications in the browser with dynamic updates. Applications include HTML, CSS, Javascript, JQuery, Netlify, OpenWeather API, Bootstrap, and Font Awesome.
+- Technologies used for this project: HTML, CSS, Javascript, JQuery, Netlify, OpenWeather API, Bootstrap, and Font Awesome.
 
 ## User Story:
 
