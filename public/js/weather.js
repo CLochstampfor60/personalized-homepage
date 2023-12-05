@@ -9,7 +9,7 @@
 const api_key = 'f00752d5dcab5ff786b36d757033727e'
 
 // Manually added a U.S. City, but future development will include pulling User's current IP address location instead. Best business practice for the average User who isn't accustomed to manually updating this on their end.
-const apiURL = `https://api.openweathermap.org/data/2.5/weather?q=Yorktown&units=imperial&appid=${api_key}`
+const apiURL = `https://api.openweathermap.org/data/2.5/weather?lat=37.24&lon=-76.51&units=imperial&appid=${api_key}`
 
 function displayWeather() {
   fetch(
