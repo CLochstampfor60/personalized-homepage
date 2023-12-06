@@ -27,6 +27,7 @@ function displayWeather() {
       document.getElementById('weather').innerHTML = `
 				<img src="https://openweathermap.org/img/wn/${icon}@4x.png" width="100px" />
         <span>${temp}</span>`
+      //OpeanWeath app: fetching not actual temperature, but how it FEELS for a person outside. Thus, temperature it slightly off, and this is confirmed with AccuWeather app information.
     })
     .catch((error) => {
       document.getElementById('weather').innerText = 'Weather data unavailable'
