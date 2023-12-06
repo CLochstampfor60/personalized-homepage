@@ -13,6 +13,7 @@ const apiURL = `https://api.openweathermap.org/data/2.5/weather?lat=37.238754&lo
 // Latitude and longitude coordinates are: 37.238754, -76.509674
 // Don't know if rounding the figures makes a difference. Doesn't appear so when checking the Live Server and it's fetching data.
 // May use AccuWeather in the future, similar to OpenWeather when it comes to fetching.
+// OpenWeather app city search: https://openweathermap.org/city/4046946
 
 function displayWeather() {
   fetch(
