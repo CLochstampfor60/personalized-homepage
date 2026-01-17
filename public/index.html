@@ -1,0 +1,86 @@
+<!-- Website manually deployed first through Netlify (not on Github, then pushed-merged to Netlify) -->
+<!-- Website url: https://my-hompage2.netlify.app/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- BOOTSTRAP LINKS -->
+    <!-- Latest compiled and minified CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- TAB TITLE PAGE -->
+    <title>My Homepage</title>
+  </head>
+
+  <body>
+    <!-- TIME and DATE -->
+    <div>
+      <p id="date"></p>
+      <h1 id="time"></h1>
+    </div>
+
+    <!-- GREETING (RESPONSIVE TO YOUR CURRENT LOCATION TIME) -->
+    <div>
+      <h2 id="greeting"></h2>
+      <p id="weather"></p>
+    </div>
+
+    <!-- WEBPAGE SHORTCUTS ATTACHED TO ICONS -->
+    <div>
+      <ul id="shortcutList"></ul>
+    </div>
+
+    <footer>
+      <!-- COPYRIGHT LOGO AND NOTIFICATION -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center mt-5">
+            <hr />
+            <i
+              class="fa-solid fa-code fa-spin fa-lg"
+              style="color: pink; --fa-animation-duration: 5s"
+            ></i>
+            &nbsp; &copy; Locky's Media Mania 2023 &nbsp;
+            <i
+              class="fa-solid fa-code fa-spin fa-spin-reverse fa-lg"
+              style="color: pink; --fa-animation-duration: 5s"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ADDITIONAL SCRIPTS & THE END OF THE ENTIRE DOCUMENT-->
+    <!-- FONT AWESOME -->
+    <script
+      src="WAS_FONT_AWESOME_API_KEY_AND_PATH"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Javascript Libraries-->
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="./js/time.js"></script>
+    <script src="./js/date.js"></script>
+    <script src="./js/greeting.js"></script>
+    <script src="./js/weather.js"></script>
+    <script src="./js/shortcuts.js"></script>
+  </body>
+</html>
